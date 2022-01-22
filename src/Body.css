@@ -1,0 +1,177 @@
+.body {
+
+    padding: 30px;
+    flex: 1;
+    height: 100vh;
+    color: white;
+    overflow-y: overlay;
+    background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+    position: relative;
+}
+
+a { 
+    margin-top: 10px;
+    padding-top: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.body::-webkit-scrollbar {
+    display: none;
+}
+.body_info {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+
+}
+
+.body_infoText:span {
+    margin-left: 0;
+}
+.body_infoText {
+
+    flex: 1;
+    margin-top: 10%;
+}
+.body__infoText > h2 {
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+.body__infoText > p {
+    font-size: 14px;
+}
+.body_info > img {
+    height: 20vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+    min-height: 27vh;
+    max-height: 40vh;
+
+}
+
+.body_shuffle {
+    font-size: 73px !important;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body_songs {
+    margin: 20px -30px;
+}
+.body_shuffle:hover {
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+
+}
+
+
+.body_icons  {
+    display: flex;
+    align-items: center;
+
+}
+
+.body_icons > .MuiSvgIcon-root {
+    margin-right: 20px;
+
+}
+
+.body_infoText > h2 {
+    font-size:48px;
+    margin-bottom: 10px;
+}
+
+.body_infoText > p {
+    font-size: 14px;
+}
+
+
+
+.body_songs {
+    margin: 20px -30px 10px -30px;
+}
+
+.body_songs > ol {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 1px solid red;
+}
+
+.body_songs > hr {
+    margin: 10px 30px;
+    border: 1px solid rgba(56,56,61, 0.75);
+}
+
+.body_songsHeader {
+    display: flex;
+    list-style: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 5px 0;
+    width: 95.75%;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(71,81,97, 0.5);
+}
+
+.body_songsNumber > p {
+    font-size: 14px;
+    text-align: center;
+    width: fit-content;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.body_songsTitle > p {
+    font-size: 14px;
+    width: fit-content;
+    margin-left: 30px;
+    margin-right: 500px;
+    margin-top: 15px;
+}
+
+.body_songsAlbum > p {
+    font-size: 14px;
+    width: fit-content;
+    float: left;
+    margin-left: 45%;
+    margin-right: 15%;
+    margin-top: 15px;
+
+}
+
+.body_songsRelease > p {
+    margin-left: 248px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.body_songsDurationIcon {
+  margin-left: 14.5%;
+  margin-top: 17px;
+  height: fit-content; 
+  width: fit-content;
+}
+
+.body_duration {
+    font-size: 20px !important;
+    padding: 0;
+    margin: 0;
+}
+
+.icon_green {
+    color: #1ed15e;
+}
+
+#discover_profileImage {
+    pointer-events: none;
+}
